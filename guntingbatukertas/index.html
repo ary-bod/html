@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Home Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Gunting Batu Kertas</h1>
+    </header>
+
+    <div class="score-board">
+        <div id="user-label" class="badge">user</div>
+        <div id="computer-label" class="badge">comp</div>
+        <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+
+    <div class="result">
+        <p>Kertas menutup Batu. Kamu menang!</p>
+    </div>
+
+    <div class="choices">
+        <div id="r" class="choice">
+            <img src="batu.png" width="120px" alt="">
+        </div>
+        <div id="p" class="choice">
+            <img src="kertas.png" width="120px" alt="">
+        </div>
+        <div id="s" class="choice">
+            <img src="gunting.png" width="120px" alt="">
+        </div>
+    </div>
+
+    <p id="action-message">Make your move!</p>
+    <script src="app.js"></script>
+</body>
+</html>
